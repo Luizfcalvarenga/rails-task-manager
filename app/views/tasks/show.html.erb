@@ -1,8 +1,14 @@
-<h2><%= @task.title %></h2>
-<p><%= @task.details %></p>
-<p><%= @task.completed %></p>
+<div class='task'>
+  <h2><%= @task.title %></h2>
+  <p><strong>Details:</strong> <%= @task.details %></p>
+  <p><strong>Completed:</strong> <%= @task.completed %></p>
+
+</div>
 
 
-<%= link_to "Back to the list", index_path %>
-<%= link_to "Edit this task", edit_path %>
-
+<div class='link'>
+  <%= link_to index_path do %>
+    <%= fa_icon 'solid rotate-left' %><span> Back to list</span>
+  <% end %>
+  <span class='icon'><%= link_to "Edit this task", edit_path %></span>
+</div>

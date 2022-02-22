@@ -1,3 +1,126 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+body {
+  background-color: rgb(193,193,193);
+}
+
+a, p {
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: black;
+
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Josefin Sans';
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Josefin Sans';
+  font-size: 40px;
+}
+
+.container {
+  margin: 100px;
+  margin-left: 50px;
+
+
+}
+
+.link {
+  margin: 100px;
+  margin-left: 50px;
+}
+
+.form {
+  margin: 100px;
+  margin-left: 50px;
+}
+
+li {
+  line-height: 30px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+
+ul {
+  padding-inline-start: 0;
+}
+
+.task {
+  margin: 100px;
+  margin-left: 50px;
+}
+
+.form {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+#task_title {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+
+  font-size: 20px;
+}
+
+#task_details {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+
+.fa-square {
+  font-size: 10px;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+#task_completed {
+  padding: 20px;
+}
+
+.form input[type=submit]{
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(251,248,204);
+
+
+
+}
