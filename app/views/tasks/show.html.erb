@@ -11,8 +11,9 @@
 
   <div class='link'>
     <%= link_to index_path do %>
-      <%= fa_icon 'solid rotate-left' %><span> Back to list</span>
+      <%= fa_icon 'solid rotate-left' %><span class='text-icon'> Back to list</span>
     <% end %>
-    <span class='icon'><%= link_to "Edit this task", edit_path %></span>
-  </div>
+    <%= link_to edit_path do %>
+      <%= fa_icon 'solid pen' %><span> Edit task</span>
+    <% end %>
 </div>
